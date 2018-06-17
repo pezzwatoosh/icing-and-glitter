@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid pink;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.padding {
+  padding: 5%;
+}
+
+.bg-image {
+  background-color: grey;
+  padding: 5%;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.travel {
+  background-image: url('https://images.pexels.com/photos/100756/pexels-photo-100756.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+
+/* MUST HAVES */
+.must-haves li {
+  display: inline;
+}
+
+.must-haves li img {
+  max-height: 80px;
+}
+
+/* PROFILE SECTION */
+.profile .profile-image {
+  border-radius: 100%;
+}
+
+.profile .social-icons img {
+  width: 92px;
+}
