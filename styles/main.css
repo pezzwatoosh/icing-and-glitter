@@ -23,14 +23,22 @@ img {
   padding: 5%;
   background-position: center;
   background-size: cover;
-  min-height: 300px;
+  min-height: 500px;
 }
 
 .travel {
-  background-image: url('https://images.pexels.com/photos/100756/pexels-photo-100756.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-image: url('http://icingandglitter.com/wp-content/uploads/2018/05/DSC_6673.jpg');
+}
+.living {
+  background-image: url('http://icingandglitter.com/wp-content/uploads/2017/12/DSC_8296.jpg')
+}
+.style {
+  background-image: url('https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-9/19420604_10155151146705399_6174218925298367787_n.jpg?_nc_cat=0&oh=321153720280c924f211dbc17ad3caa2&oe=5BA8D1E1');
+
 }
 
 /* MUST HAVES */
+
 .must-haves li {
   display: inline;
 }
