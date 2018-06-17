@@ -4,7 +4,7 @@ title: Third Blog Post
 meta-description:
 meta-keywords:
 image_path: http://www.instituteofcode.com/assets/images/rice-paddy.jpg
-categories: [travel, living, style]
+categories: [travel]
 author: Tanzeela Chowdhury
 ---
 
