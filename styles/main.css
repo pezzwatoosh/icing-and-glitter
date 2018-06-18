@@ -44,23 +44,48 @@ Website Colours: List colour hex codes here for reference
 
 /* Typography */
 body {
-  font-family: 'Assistant', sans-serif; /* Make sure you have added this font in the head of your HTML! */
+  font-family: 'Montserrat', sans-serif; /* Make sure you have added this font in the head of your HTML! */
   color: rgb(60,60,65);
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.1rem;
 }
+.handwriting {
+   font-family: 'Sacramento', cursive;
+}
+
 p {
   margin-bottom: 1rem;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p a {
+  border-bottom: 1px solid #d492b7;
+  padding-bottom: 2px;
+}
+p a:hover {
+  color: #d492b7;
+}
+
+
+h2, h3 {
+    color: rgb(60,60,60);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
 h1 { font-size: 3.0rem; line-height: 1.2; }
-h2 { font-size: 2.4rem; line-height: 1.25; }
-h3 { font-size: 2.0rem; line-height: 1.3; }
-h4 { font-size: 1.8rem; line-height: 1.35; }
-h5 { font-size: 1.7rem; line-height: 1.5; }
+h2 { font-size: 2.0rem; line-height: 1.25; }
+h3 { font-size: 1.5rem; line-height: 1.3; }
+h4 { font-size: 1.5rem; line-height: 1.35; }
+h5 { font-size: 1.5rem; line-height: 1.5; }
 h6 { font-size: 1.5rem; line-height: 1.5; }
 p  { font-size: 1.1rem; line-height: 1.5;}
 blockquote  { font-size: 1.1rem; line-height: 1.5;}
@@ -77,6 +102,11 @@ hr {
   border-top: 1px solid rgb(245,245,245);
   margin: 3vh 0;
 }
+
+.left {text-align:left}
+.center {text-align:center}
+.right {text-align:right}
+
 
 img {
   max-width: 100%; /* This ensures an image never breaks it's container */
@@ -98,11 +128,20 @@ section         { padding: 10vh 5%; }
 .col,
 [class*=col-]   { padding: 2%; }
 
+[class*=grid-], [class*=grid_], [class~=grid] {
+  margin: 0;
+}
+
 /* Other universal styles */
 .featured{
   background-color: #E2B6CF; /* featured color */
   color: white;
 }
+
+.dark {
+  background-color: rgb(220,220,230);
+}
+
 
 .fa.featured {
   color: #1abc9c; /* featured color */
@@ -113,36 +152,38 @@ section         { padding: 10vh 5%; }
 header {
   border-bottom: 1px solid rgb(245,245,245);
   background-color: #E2B6CF;
-  position: fixed;
   width: 100%;
-  z-index: 999;
+}
+
+header [class*=col-] {
+  padding: 1%;
 }
 
 header a {
-  color: grey;
-  padding:5px;
+  color: rgb(90,90,90);
+  padding: 5px;
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 nav a {
     text-decoration: none;
-    padding: 1rem;
+    padding: 0.5rem;
     color: inherit;
 }
 
 nav a:hover {
-  color: #1abc9c; /* featured color */
+  color: white; /* featured color */
   -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 
-.logo {
-  max-height: 2.5rem;
-  max-width: 15rem;
+.logo a{
   margin: 0.5rem 0;
-  font-family: 'Satisfy', cursive;
-  font-size: 3rem;
-
+  font-family: 'Sacramento', cursive;
+  font-size: 2.5rem;
+  text-transform: none;
 }
 
 footer {
@@ -183,17 +224,15 @@ footer nav .fa,
 
 /* Buttons */
  button,
-.button,
-.button-inverted {
-  background-color: #eaf2e3; /* featured color */
-  border: none;
-  border-radius: 5px;
-  padding: 0.5rem 3rem;
+.button{
+  border: 1px solid #f7ecf3;
+  padding: 0.8rem 5rem;
   margin: 1rem auto;
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
   color: grey;
+  background-color: #f7ecf3;
 }
 
 .button a {
@@ -208,8 +247,9 @@ footer nav .fa,
 
 .button:hover,
 .button-inverted:hover {
-  background-color: #29aa8e;
+  background-color: rgb(90,90,90);
   cursor: pointer;
+  color: white;
 }
 
 .previous,
@@ -252,7 +292,7 @@ textarea {
   border-style: solid;
   border: 1px solid grey;
   padding: 0.8rem;
-  font-family: 'Work Sans'; /* Site Font */
+  font-family: 'Montserrat'; /* Site Font */
   font-size: 1rem;
   display: inline-block;
   width: 30%;
@@ -264,12 +304,6 @@ textarea {
   min-height: 7rem;
 }
 
-input[type="submit"] {
-  width: auto;
-  display: block;
-  background-color: #eaf2e3; /* featured color */
-}
-
 form [class*=col-] {
   padding: 1%;
 }
@@ -279,17 +313,8 @@ img {
   height: auto;
 }
 
-section {
+section, footer {
   padding: 5%;
-}
-h1 {
- font-family: 'Shrikhand', cursive;
- color: #E2B6CF;
-}
-h2 {
-  font-family: 'Indie Flower', cursive;
-  color:black;
-  font-size: 3rem;
 }
 
 .text-center {
@@ -305,16 +330,23 @@ h2 {
   padding: 5%;
   background-position: center;
   background-size: cover;
-  min-height: 500px;
-  border: 2vw solid white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-bottom: 120%;
   text-decoration: none;
 }
 
-.bg-image h2{
-  background-color: rgba(255, 255, 255, 0.5);
+.boxed {
+  border: 10px solid white;
+  padding: 10% 5%;
+}
+
+.full-image {
+  background-position: center;
+  background-size: cover;
+  display: block;
+}
+
+.text-box{
+  background-color: rgba(255, 255, 255, 0.7);
   padding: 7%;
   flex-grow: 1;
 }
@@ -341,11 +373,43 @@ h2 {
 }
 
 /* PROFILE SECTION */
-.profile .profile-image {
-  border-radius: 100%;
+
+
+.profile {
+  padding: 0;
 }
 
 .profile .social-icons .fab {
   font-size: 3rem;
   color: pink;
+}
+
+.social-icons a {
+    text-decoration: none;
+    padding: 0 0.5rem;
+}
+
+/* blog post loops */
+
+.post-block a {
+    text-decoration: none;
+    color: inherit;
+    /* border: 2px solid transparent; */
+    display: block;
+}
+
+.post-block:hover {
+  margin-top: -4px;
+}
+
+.post-block .bg-image {
+  margin-bottom: 1rem;
+}
+
+/* this is everything inside the blog posts */
+
+.post-body h2,
+.post-body h3 {
+    text-transform: none;
+    letter-spacing: 0;
 }

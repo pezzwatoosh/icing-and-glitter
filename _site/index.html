@@ -6,10 +6,16 @@
   <meta charset="utf-8">
   <title>Icing & Glitter</title>
   <link href="https://fonts.googleapis.com/css?family=Assistant|Satisfy" rel="stylesheet">
+  <!-- - - -CSS---->
+  <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Shrikhand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Sacramento" rel="stylesheet">
+
   <link rel="stylesheet" href="/styles/gridlex.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
   <link rel="stylesheet" href="/styles/main.css">
-  
+
 </head>
 
 
@@ -22,18 +28,18 @@
     <!-- - - Global site header ---->
     <!-- - - - - LOGO AND MENU------->
 
-<header class="grid">
+<header class="grid-middle">
 
   <div class="col-6 logo">
     <a href="/"> Icing & Glitter</a>
   </div>
 
-  <div class="col-6">
+  <nav class="col-6 right">
     <a href="/about">About</a>
     <a href="/travel">Travel</a>
     <a href="/living">Living</a>
     <a href="/style">Style</a>
-  </div>
+  </nav>
 
 </header>
 
@@ -46,25 +52,25 @@
     <h3> Browse by category</h3>
   </div>
 
-  <a href="travel" class="col-4 bg-image travel">
-    <h2>Travel</h2>
+  <a href="travel" class="col-4 full-image boxed travel">
+    <h2 class="text-box">Travel</h2>
   </a>
-  <a href="living"class="col-4 bg-image living">
-    <h2>Living</h2>
+  <a href="living"class="col-4 full-image boxed living">
+    <h2 class="text-box">Living</h2>
   </a>
-  <a href="style"class="col-4 bg-image style">
-    <h2>Style</h2>
+  <a href="style"class="col-4 full-image boxed style">
+    <h2 class="text-box">Style</h2>
   </a>
 
 </section>
 
 <!-- - - - - NEWSLETTER - - - - -->
-<section class="newsletter grid featured">
-  <div class="col-4"><p>Subscribe to my newsletter</p> </div>
-  <form class="col-8 grid-middle-center">
+<section class="newsletter featured subscribe center">
+      <h3>Subscribe to my newsletter</h3>
+    <form>
       <input type="text"placeholder="First Name"/>
       <input type="email"placeholder="Email Address"/>
-      <button type="submit">GO!</button>
+      <input type="submit" class="button">
   </form>
 
 </section>
@@ -116,13 +122,15 @@
 </section>
 
 <section class="grid-center profile">
-  <div class="col-4">
-    <img class="profile-image show-me" src="https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-9/28685115_10155856773910399_4071368994426198266_n.jpg?_nc_cat=0&oh=72223d52af7bdb345608112c22045358&oe=5BBC62A1" alt="Tanzeela Chowdhury">
-
+  <div class="col-6 full-image" style=" background-image:url('https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-9/28685115_10155856773910399_4071368994426198266_n.jpg?_nc_cat=0&oh=72223d52af7bdb345608112c22045358&oe=5BBC62A1')">
+  </div>
+  <div class="col-6-middle padding">
+    <h3> About Icing & Glitter </h3>
     <p>Icing & Glitter was created to inspire. To encourage its readers to believe that no dream is too big. My goal is to create a space that informs, sparks honest conversation, and encourages my readers to live a beautiful, positive life.
     </p>
+    <p> Let's Connect ... </p>
 
-    <div class="social-icons">
+    <div class="social-icons center">
       <a href="https://facebook.com/pezz.watoosh">
         <i class="fab fa-facebook-square"></i>
       </a>
@@ -131,8 +139,6 @@
       </a>
       <a href="https://twitter.com">
       <i class="fab fa-twitter-square"></i>
-
-
       </a>
     </div>
 
@@ -141,8 +147,8 @@
 
 
     <!-- - - - - All of my footer ----->
-    <footer class="featured text-center">
-  <h2>@tanzeelachowdhury</h2>
+    <footer class="dark text-center">
+  <h3>@tanzeelachowdhury</h3>
 
   <div class="instagram">
     <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/1ad5b3bbaedb57168dd2ac3fc3349799.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
