@@ -3,7 +3,7 @@ layout: post
 title: Second Blog Post
 meta-description:
 meta-keywords:
-image_path: http://www.instituteofcode.com/assets/images/rice-paddy.jpg
+image_path: /images/IMG_6521.jpg
 categories: [living, style]
 author: Tanzeela Chowdhury
 ---

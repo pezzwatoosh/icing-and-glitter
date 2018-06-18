@@ -3,7 +3,7 @@ layout: post
 title: First Blog Post
 meta-description:
 meta-keywords:
-image_path: http://www.instituteofcode.com/assets/images/rice-paddy.jpg
+image_path: /images/IMG_6479.jpg
 categories: [travel, living, style]
 author: Tanzeela Chowdhury
 ---

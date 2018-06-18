@@ -267,6 +267,15 @@ img {
 section {
   padding: 5%;
 }
+h1 {
+ font-family: 'Shrikhand', cursive;
+ color: #E2B6CF;
+}
+h2 {
+  font-family: 'Indie Flower', cursive;
+  color:black;
+  font-size: 3rem;
+}
 
 .text-center {
   text-align: center;
@@ -321,5 +330,6 @@ section {
 }
 
 .profile .social-icons img {
-  width: 92px;
+  width: 50px;
+  padding-right: 5%;
 }
