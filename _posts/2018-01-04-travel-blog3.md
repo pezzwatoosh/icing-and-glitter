@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Style post 1
+title: Festival Madness! EDC, Las Vegas
 meta-description:
 meta-keywords:
-image_path: /images/IMG_6579.jpg
-categories: [style]
+image_path: /images/IMG_2617.jpg
+categories: [travel]
 author: Tanzeela Chowdhury
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Travel Post 3
+title: Ultimate Guide to Oia, Santorini
 meta-description:
 meta-keywords:
-image_path: /images/IMG_6579.jpg
+image_path: /images/travel-santorini.jpg
 categories: [travel]
 author: Tanzeela Chowdhury
 ---

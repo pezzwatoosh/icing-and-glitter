@@ -46,6 +46,7 @@ Website Colours: List colour hex codes here for reference
 body {
   font-family: 'Assistant', sans-serif; /* Make sure you have added this font in the head of your HTML! */
   color: rgb(60,60,65);
+  font-size: 2rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -111,6 +112,16 @@ section         { padding: 10vh 5%; }
 /* ----- HEADER & FOOTER --------------------------- */
 header {
   border-bottom: 1px solid rgb(245,245,245);
+  background-color: #E2B6CF;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+header a {
+  color: grey;
+  padding:5px;
+  text-decoration: none;
 }
 
 nav a {
@@ -206,15 +217,6 @@ footer nav .fa,
 
 }
 
-header {
-  background-color: #E2B6CF;
-}
-
-header a {
-  color: #2a1;
-  padding:5px;
-  text-decoration: none;
-}
 
 /* Blog elements */
 .blog-loop a {
