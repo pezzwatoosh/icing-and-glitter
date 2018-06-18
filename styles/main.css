@@ -44,7 +44,7 @@ Website Colours: List colour hex codes here for reference
 
 /* Typography */
 body {
-  font-family: 'Work Sans'; /* Make sure you have added this font in the head of your HTML! */
+  font-family: 'Assistant', sans-serif; /* Make sure you have added this font in the head of your HTML! */
   color: rgb(60,60,65);
 }
 
@@ -129,6 +129,9 @@ nav a:hover {
   max-height: 2.5rem;
   max-width: 15rem;
   margin: 0.5rem 0;
+  font-family: 'Satisfy', cursive;
+  font-size: 3rem;
+
 }
 
 footer {
@@ -203,6 +206,16 @@ footer nav .fa,
 
 }
 
+header {
+  background-color: #E2B6CF;
+}
+
+header a {
+  color: #2a1;
+  padding:5px;
+  text-decoration: none;
+}
+
 /* Blog elements */
 .blog-loop a {
   color: inherit;
@@ -239,8 +252,8 @@ textarea {
   padding: 0.8rem;
   font-family: 'Work Sans'; /* Site Font */
   font-size: 1rem;
-  display: block;
-  width: 100%;
+  display: inline-block;
+  width: 30%;
   margin: 1rem auto;
   vertical-align: top;
 }
@@ -295,6 +308,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 
 .bg-image h2{
@@ -321,7 +335,7 @@ h2 {
 }
 
 .must-haves li img {
-  max-height: 80px;
+  max-height: 180px;
 }
 
 /* PROFILE SECTION */
@@ -329,7 +343,7 @@ h2 {
   border-radius: 100%;
 }
 
-.profile .social-icons img {
-  width: 50px;
-  padding-right: 5%;
+.profile .social-icons .fab {
+  font-size: 3rem;
+  color: pink;
 }

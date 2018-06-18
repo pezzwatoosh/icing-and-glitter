@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Third Blog Post
+title: Travel Post 2
 meta-description:
 meta-keywords:
 image_path: /images/IMG_6579.jpg

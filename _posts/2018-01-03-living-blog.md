@@ -1,10 +1,10 @@
 ---
 layout: post
-title: First Blog Post
+title: Living Post 3
 meta-description:
 meta-keywords:
-image_path: /images/IMG_6479.jpg
-categories: [travel, living, style]
+image_path: /images/IMG_6579.jpg
+categories: [living]
 author: Tanzeela Chowdhury
 ---
 

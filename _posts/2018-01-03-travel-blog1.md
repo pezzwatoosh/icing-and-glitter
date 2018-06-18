@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Second Blog Post
+title: Travel Post 3
 meta-description:
 meta-keywords:
-image_path: /images/IMG_6521.jpg
-categories: [living, style]
+image_path: /images/IMG_6579.jpg
+categories: [travel]
 author: Tanzeela Chowdhury
 ---
 
