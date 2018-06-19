@@ -4,13 +4,11 @@
 
 $(document).ready(function(){
 
+  window.sr = ScrollReveal();
+  sr.reveal('.show-me', { duration:2000});
 
-
-
-
-window.sr = ScrollReveal();
-
-sr.reveal('.show-me', { duration:2000});
-
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
 
 });
